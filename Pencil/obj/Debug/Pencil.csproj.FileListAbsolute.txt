@@ -1,0 +1,9 @@
+C:\Users\fslongo\source\repos\Pencil\Pencil\obj\Debug\Pencil.csprojAssemblyReference.cache
+C:\Users\fslongo\source\repos\Pencil\Pencil\bin\Debug\Pencil.exe.config
+C:\Users\fslongo\source\repos\Pencil\Pencil\bin\Debug\Pencil.exe
+C:\Users\fslongo\source\repos\Pencil\Pencil\bin\Debug\Pencil.pdb
+C:\Users\fslongo\source\repos\Pencil\Pencil\bin\Debug\Matita.dll
+C:\Users\fslongo\source\repos\Pencil\Pencil\bin\Debug\Matita.pdb
+C:\Users\fslongo\source\repos\Pencil\Pencil\obj\Debug\Pencil.csproj.CopyComplete
+C:\Users\fslongo\source\repos\Pencil\Pencil\obj\Debug\Pencil.exe
+C:\Users\fslongo\source\repos\Pencil\Pencil\obj\Debug\Pencil.pdb

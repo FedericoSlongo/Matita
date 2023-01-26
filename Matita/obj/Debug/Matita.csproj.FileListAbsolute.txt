@@ -1,0 +1,5 @@
+C:\Users\fslongo\source\repos\Pencil\Matita\obj\Debug\Matita.csprojAssemblyReference.cache
+C:\Users\fslongo\source\repos\Pencil\Matita\bin\Debug\Matita.dll
+C:\Users\fslongo\source\repos\Pencil\Matita\bin\Debug\Matita.pdb
+C:\Users\fslongo\source\repos\Pencil\Matita\obj\Debug\Matita.dll
+C:\Users\fslongo\source\repos\Pencil\Matita\obj\Debug\Matita.pdb
