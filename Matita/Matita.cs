@@ -32,21 +32,19 @@
 
         public void Cancella(int numero_K_di_caratteri_da_eliminare)
         {
-            char[] ohio = new char[base.cio_che_ha_scritto.Length];
-            for (int i = 0; i < base.cio_che_ha_scritto.Length; i++)
-                ohio[i] = base.cio_che_ha_scritto[i];
-            string con_caratteri_cancellati = "";
-            for (int i = base.cio_che_ha_scritto.Length; i > base.cio_che_ha_scritto.Length; i--)
+            int counter = 0;
+            if (cio_che_ha_scritto.Length >= numero_K_di_caratteri_da_eliminare)
             {
-                if (lunghezza == 0)
-                    break;
-                if (i % 5 == 0)
-                    numero_cancellature_rimaste_a_disposizione--;
-                ohio[base.cio_che_ha_scritto.Length - i] = '\0';
+                numero_cancellature_rimaste_a_disposizione = numero_cancellature_rimaste_a_disposizione - (numero_K_di_caratteri_da_eliminare / 5);
+                if (numero_cancellature_rimaste_a_disposizione > 0)
+                {
+                    for (int i = cio_che_ha_scritto.Length - 1; i >= numero_K_di_caratteri_da_eliminare; i--)
+                    {
+                        counter += cio_che_ha_scritto[i] == ' ' ? 1 : 0;
+                    }
+                    base.cio_che_ha_scritto = cio_che_ha_scritto.Remove(cio_che_ha_scritto.Length - 1 - numero_K_di_caratteri_da_eliminare - counter);
+                }
             }
-            base.cio_che_ha_scritto = "";
-            for (int i = 0; i < base.cio_che_ha_scritto.Length; i++)
-                base.cio_che_ha_scritto += ohio[i];
         }
     }
 }
